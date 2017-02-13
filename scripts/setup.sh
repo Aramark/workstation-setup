@@ -23,10 +23,9 @@ source ${MY_DIR}/configuration-osx.sh
 source ${MY_DIR}/configuration-bash.sh
 source ${MY_DIR}/git.sh
 source ${MY_DIR}/git-aliases.sh
+source ${MY_DIR}/ios.sh
 source ${MY_DIR}/java.sh
 source ${MY_DIR}/ruby.sh
-source ${MY_DIR}/node.sh
-source ${MY_DIR}/node-packages.sh
 source ${MY_DIR}/cloud.sh
 source ${MY_DIR}/applications-common.sh
 
