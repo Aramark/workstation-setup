@@ -25,6 +25,7 @@ source ${MY_DIR}/git.sh
 source ${MY_DIR}/git-aliases.sh
 source ${MY_DIR}/ios.sh
 source ${MY_DIR}/java.sh
+source ${MY_DIR}/database.sh
 source ${MY_DIR}/ruby.sh
 source ${MY_DIR}/cloud.sh
 source ${MY_DIR}/applications-common.sh
