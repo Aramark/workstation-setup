@@ -29,6 +29,7 @@ source ${MY_DIR}/database.sh
 source ${MY_DIR}/ruby.sh
 source ${MY_DIR}/cloud.sh
 source ${MY_DIR}/applications-common.sh
+source ${MY_DIR}/image-processing.sh
 
 if [ "${SETUP_TYPE}" == "labs-engineer" ]
 then
@@ -44,6 +45,8 @@ if [ "${SETUP_TYPE}" == "data-engineer" ]
 then
   source ${MY_DIR}/applications-data-engineer.sh
 fi
+
+source ${MY_DIR}/database.sh
 
 source ${MY_DIR}/configurations.sh
 
