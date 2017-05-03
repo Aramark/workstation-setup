@@ -30,6 +30,7 @@ source ${MY_DIR}/ruby.sh
 source ${MY_DIR}/cloud.sh
 source ${MY_DIR}/applications-common.sh
 source ${MY_DIR}/image-processing.sh
+source ${MY_DIR}/javascript.sh
 
 if [ "${SETUP_TYPE}" == "labs-engineer" ]
 then
