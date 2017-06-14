@@ -34,3 +34,6 @@ brew cask install macdown
 brew cask install macvim
 
 set -e
+
+echo "Setting scutil HostName"
+hostname | cut -d . -f 1 | sudo scutil --set HostName 
