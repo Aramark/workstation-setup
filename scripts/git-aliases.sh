@@ -1,5 +1,6 @@
 echo
 echo "Setting up Git aliases..."
+mkdir ~/.bash_it/enabled/
 git config --global alias.gst git status
 git config --global alias.st status
 git config --global alias.di diff
